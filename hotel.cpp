@@ -683,8 +683,9 @@ void openF(string str) {
 
 	string inp;
 	int addcounter = 0;
+	cout << "1. remove a line\n 2. change a line\n 3. insert a line\n Close = exit open function.\n";
 	do {
-		cout << "1. remove a line\n 2. change a line\n 3. insert a line\n Close = exit open function.\n";
+		
 	
 		getline(cin, inp);
 		int ins = strToInt(inp);
